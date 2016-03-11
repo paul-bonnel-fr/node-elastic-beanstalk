@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A sample node.js project for deployment on AWS Elastic Beanstalk",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidtucker/node-elastic-beanstalk.git"

@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = (process.env.NODE_ENV === 'production') ? 80 : 3000;
+var port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
     res.send('Sample Node.js App');
